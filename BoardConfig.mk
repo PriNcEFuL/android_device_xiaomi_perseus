@@ -6,6 +6,8 @@
 
 BOARD_VENDOR := xiaomi
 
+BUILD_BROKEN_DUP_RULES := true
+
 LOCAL_PATH := device/xiaomi/perseus
 
 # Architecture
