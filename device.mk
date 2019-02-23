@@ -155,7 +155,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fingerprint/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_perseus.rc:system/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_perseus.rc
+    $(LOCAL_PATH)/fingerprint/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_perseus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_perseus.rc
 
 # Health
 PRODUCT_PACKAGES += \
@@ -208,6 +208,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
+    vendor.mokee.livedisplay@2.0-service-sdm
     vendor.mokee.livedisplay@2.0-service.xiaomi_perseus
 
 # Media
@@ -238,7 +239,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     android.hardware.power@1.0-service \
-    power.qcom:64
+    power.sdm845
 
 # QTI
 PRODUCT_COPY_FILES += \
@@ -298,7 +299,7 @@ PRODUCT_PACKAGES += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    mokee.trust@1.0-service
+    vendor.mokee.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
