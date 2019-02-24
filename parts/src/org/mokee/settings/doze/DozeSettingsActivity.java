@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.mokeeos.settings.doze;
+package org.mokee.settings.doze;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

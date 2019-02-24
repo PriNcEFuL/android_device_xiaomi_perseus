@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-package org.mokeeos.settings;
+package org.mokee.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import org.mokeeos.settings.doze.DozeUtils;
+import org.mokee.settings.doze.DozeUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
