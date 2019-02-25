@@ -119,6 +119,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # QCOM
 #BOARD_USES_QCOM_HARDWARE := true
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
+
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
