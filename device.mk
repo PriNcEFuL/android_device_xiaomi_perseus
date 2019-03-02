@@ -134,13 +134,18 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.0-impl \
     com.android.nfc_extras \
     com.nxp.nfc.nq \
+    com.nxp.nfc.nq.xml \
+    libnqnfc-nci \
+    libnqp61-jcop-kit \
+    nfc_nci.nqx.default \
     nqnfcee_access.xml \
     nqnfcse_access.xml \
     NQNfcNci \
-    SecureElement \
-    Tag
+    Tag \
+    vendor.nxp.hardware.nfc@1.1-service
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
@@ -170,6 +175,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(LOCAL_PATH)/seccomp/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
+
+# Secure element
+PRODUCT_PACKAGES += \
+    SecureElement
 
 # Telephony
 PRODUCT_PACKAGES += \
