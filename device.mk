@@ -334,6 +334,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
 
+# Slider settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
