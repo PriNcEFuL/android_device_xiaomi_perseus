@@ -520,7 +520,7 @@
         <fqname>@1.0::IGoodixBiometricsFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.livedisplay</name>
+        <name>vendor.mokee.livedisplay</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
         <interface>
