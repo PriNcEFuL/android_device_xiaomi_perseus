@@ -1,7 +1,11 @@
 [
   {
-    "repository": "android_kernel_xiaomi_sdm845",
-    "target_path": "kernel/xiaomi/sdm845"
+    "repository": "android_vendor_xiaomi_perseus",
+    "target_path": "vendor/xiaomi/perseus"
+  },
+  {
+    "repository": "android_kernel_xiaomi_perseus",
+    "target_path": "kernel/xiaomi/perseus"
   },
   {
     "repository": "android_packages_resources_devicesettings",
