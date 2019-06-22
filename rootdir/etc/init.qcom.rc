@@ -22,8 +22,8 @@ on init
 
 on boot
     # Flicker-free
-    chmod 0600 /sys/devices/platform/soc/soc\:qcom,dsi-display@18/msm_fb_ea_enable
-    chown system system /sys/devices/platform/soc/soc\:qcom,dsi-display@18/msm_fb_ea_enable
+    chmod 0600 /sys/devices/platform/soc/soc\:qcom,dsi-display@24/msm_fb_ea_enable
+    chown system system /sys/devices/platform/soc/soc\:qcom,dsi-display@24/msm_fb_ea_enable
 
 on late-fs
     # Boot time FS tune

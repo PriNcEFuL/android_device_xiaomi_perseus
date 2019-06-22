@@ -23,6 +23,6 @@ public class FlickerFreeConstants {
 
     // Flicker-free nodes
     static final String FLICKER_FREE_NODE =
-            "/sys/devices/platform/soc/soc:qcom,dsi-display@18/msm_fb_ea_enable";
+            "/sys/devices/platform/soc/soc:qcom,dsi-display@24/msm_fb_ea_enable";
 
 }
