@@ -14,8 +14,8 @@
 // limitations under the License.
 
 cc_binary {
-    name: "mokee.livedisplay@2.0-service.xiaomi_sdm845",
-    init_rc: ["mokee.livedisplay@2.0-service.xiaomi_sdm845.rc"],
+    name: "mokee.livedisplay@2.0-service.xiaomi_perseus",
+    init_rc: ["mokee.livedisplay@2.0-service.xiaomi_perseus.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: [

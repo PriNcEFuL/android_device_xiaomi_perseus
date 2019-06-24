@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fingerprint/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845.rc:system/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845.rc
+    $(LOCAL_PATH)/fingerprint/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_perseus.rc:system/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_perseus.rc
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_sdm845
+    android.hardware.light@2.0-service.xiaomi_perseus
 
 # LiveDisplay
 PRODUCT_PACKAGES += \

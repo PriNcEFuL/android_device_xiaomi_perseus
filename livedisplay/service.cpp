@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "mokee.livedisplay@2.0-service.xiaomi_sdm845"
+#define LOG_TAG "mokee.livedisplay@2.0-service.xiaomi_perseus"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
