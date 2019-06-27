@@ -956,7 +956,7 @@ product/etc/permissions/telephonyservice.xml
 etc/sysconfig/qti_whitelist.xml
 product/framework/embmslibrary.jar
 product/framework/qcrilhook.jar
-product/framework/qti-telephony-common.jar
+product/framework/qti-telephony-common.jar|50e8b01aa93364a6d0c7d9986d936c905e7210e6
 product/framework/QtiTelephonyServicelibrary.jar
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrild
