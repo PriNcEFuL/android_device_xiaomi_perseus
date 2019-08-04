@@ -3,7 +3,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.deep_buffer.media=true \
     ro.af.client_heap_size_kbyte=7168 \
     ro.config.media_vol_steps=25 \
-    ro.config.vc_call_vol_steps=7
+    ro.config.vc_call_vol_steps=7 \
+    ro.vendor.audio.soundfx.type=mi
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -43,7 +44,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.displayfeature.histogram.enable=false \
     ro.eyecare.brightness.threshold=7 \
     ro.eyecare.brightness.level=5 \
-    ro.hist.brightness.threshold=7
+    ro.hist.brightness.threshold=7 \
+    vendor.display.enable_default_color_mode=0
 
 # Display post-processing
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -52,6 +54,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
     ro.vendor.display.sensortype=2
+
+# Fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.fp.fpc=true \
+    ro.hardware.fp.goodix=true
+
+# GNSS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.flp=brcm \
+    ro.hardware.gps=brcm
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -72,6 +84,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Netflix custom property
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q845-05000-1
+
+# NFC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.nfc_nci=nqx.default \
+    ro.se.type=HCE,UICC
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
