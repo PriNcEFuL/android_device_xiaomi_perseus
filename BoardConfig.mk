@@ -164,5 +164,9 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 # VNDK
 BOARD_VNDK_RUNTIME_DISABLE := false
 
+# WiFi
+WIFI_HIDL_FEATURE_AWARE := true
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/perseus/BoardConfigVendor.mk
