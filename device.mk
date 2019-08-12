@@ -73,9 +73,6 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0_system
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/manifest.xml:system/etc/manifest.xml
-
 # IFAA manager
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
