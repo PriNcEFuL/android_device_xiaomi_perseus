@@ -33,7 +33,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/camera/CFR_para.bin
 vendor/etc/camera/crown_156_128.bin
 vendor/etc/camera/dualcamera.png
 vendor/etc/camera/eyelineblush.cng
@@ -95,7 +94,6 @@ vendor/lib/camera/components/com.qti.node.eisv2.so
 vendor/lib/camera/components/com.qti.node.eisv3.so
 vendor/lib/camera/components/com.qti.node.gpu.so
 vendor/lib/camera/components/com.qti.node.memcpy.so
-vendor/lib/camera/components/com.qti.node.photosolid.so
 vendor/lib/camera/components/com.qti.node.sr.so
 vendor/lib/camera/components/com.qti.node.swregistration.so
 vendor/lib/camera/components/com.qti.node.xiaomigenderage.so
@@ -115,9 +113,6 @@ vendor/lib/camera/components/com.xiaomi.node.misegment.so
 vendor/lib/camera/components/etc/GpuKernelRepo.pb
 vendor/lib/camera/components/etc/model_back.dlc
 vendor/lib/camera/components/etc/model_front.dlc
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
-vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
-vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
 vendor/lib/camera/com.qti.sensor.imx363.so
 vendor/lib/camera/com.qti.sensor.imx576.so
 vendor/lib/camera/com.qti.sensormodule.imx576.bin
@@ -135,7 +130,6 @@ vendor/lib/camera/com.qti.tuned.liteon_s5k3m3.bin
 vendor/lib/camera/com.qti.tuned.semco_imx363.bin
 vendor/lib/camera/com.qti.tuned.semco_s5k3m3.bin
 vendor/lib/camera/com.qti.tuned.sunny_imx576.bin
-vendor/lib/camera/com.qti.tuned.sunny_imx576_GLOBAL.bin
 vendor/lib/camera/com.qti.tuned.sunny_ov02a10.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigpreviewlite.bin
@@ -181,7 +175,6 @@ vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
 vendor/lib/libvidhance.so
 vendor/lib/libXMFD_AgeGender.so
-vendor/lib/lib_denoiser3.so
 vendor/lib/mibokeh_845_opencl.bin
 
 # Camera firmware
@@ -255,8 +248,9 @@ vendor/firmware/libpn553_rec.so
 vendor/lib/libpn553_fw.so
 
 # QDCM calibration data
+vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_visionox_r66455_fhd_cmd_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
 
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.0-service
@@ -322,7 +316,6 @@ vendor/etc/thermal-engine-sdm845-nolimits.conf
 vendor/etc/thermal-engine-sdm845-phone.conf
 vendor/etc/thermal-engine-sdm845-pubgmhd.conf
 vendor/etc/thermal-engine-sdm845-sgame.conf
-vendor/etc/thermal-engine-sdm845-tgame.conf
 vendor/etc/thermal-engine-sdm845.conf
 vendor/etc/thermal-engine.conf
 
