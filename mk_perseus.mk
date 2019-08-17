@@ -16,10 +16,10 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi MIX 3
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "Xiaomi/perseus/perseus:9/PKQ1.180729.001/9.5.17:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/perseus/perseus:9/PKQ1.180729.001/9.2.15:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="perseus-user 9 PKQ1.180729.001 9.5.17 release-keys" \
+    PRIVATE_BUILD_DESC="perseus-user 9 PKQ1.180729.001 9.2.15 release-keys" \
     PRODUCT_NAME="perseus" \
     TARGET_DEVICE="perseus"
 
