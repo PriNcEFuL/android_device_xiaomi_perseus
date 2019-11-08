@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mk_perseus.mk
+    $(LOCAL_DIR)/mokee_perseus.mk
