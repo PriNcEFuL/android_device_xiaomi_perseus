@@ -233,8 +233,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.mokee.livedisplay@2.0-service-sdm \
-    vendor.mokee.livedisplay@2.0-service.xiaomi_perseus
+    vendor.mokee.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_PACKAGES += \
