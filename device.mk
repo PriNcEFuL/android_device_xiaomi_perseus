@@ -164,13 +164,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    gralloc.sdm845 \
-    hwcomposer.sdm845 \
     libtinyxml \
     libvulkan \
-    memtrack.sdm845 \
-    vendor.display.config@1.7 \
-    vendor.qti.hardware.display.allocator@1.0-service
+    vendor.display.config@1.7
 
 # DRM
 PRODUCT_PACKAGES += \
