@@ -72,6 +72,9 @@ vendor/lib64/libmpbase.so
 vendor/lib64/libnanopb.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libSuperSensorCPU.so
+vendor/lib64/libmialgoengine.so
+vendor/lib64/libmisegment_front_845.so
+vendor/lib64/libVDClearShot.so
 vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.capturefusion.so
 vendor/lib/camera/components/com.arcsoft.node.frontcapturebokeh.so
@@ -176,6 +179,11 @@ vendor/lib/libtonemapalgo.so
 vendor/lib/libvidhance.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_845_opencl.bin
+vendor/lib/libmegface.so
+vendor/lib/libMegviiFacepp-0.5.2.so
+vendor/lib/libmisegment_front_845.so
+vendor/lib/libVDClearShot.so
+vendor/lib/libdng_sdk.so
 
 # Camera firmware
 vendor/firmware/bu64748gwz.prog
@@ -248,9 +256,7 @@ vendor/firmware/libpn553_rec.so
 vendor/lib/libpn553_fw.so
 
 # QDCM calibration data
-vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
 
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.0-service
@@ -260,7 +266,13 @@ vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.elliptic.so
+vendor/lib64/sensors.halls.so
+vendor/lib64/libultrasound.so
 vendor/lib/sensors.ssc.so
+vendor/lib/sensors.halls.so
+vendor/lib/libultrasound.so
+vendor/lib64/libnotifyaudiohal.so
 
 # Sensors configs
 vendor/etc/sensors/config/adux1050_0.json
@@ -304,6 +316,7 @@ vendor/etc/sensors/config/sns_rotv.json
 vendor/etc/sensors/config/sns_smd.json
 vendor/etc/sensors/config/tsl2584.json
 vendor/etc/sensors/hals.conf
+vendor/etc/elliptic_sensor.xml
 
 # Thermal configs
 vendor/etc/thermal-engine-sdm845-arvr.conf
