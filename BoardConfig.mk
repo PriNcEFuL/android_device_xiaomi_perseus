@@ -159,6 +159,10 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(LOCAL_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(LOCAL_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy/vendor
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /vendor/lib/hw/camera.qcom.so|libshim_camera.so
+
 # Treble
 BOARD_VNDK_VERSION := current
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
