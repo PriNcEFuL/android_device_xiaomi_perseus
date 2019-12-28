@@ -426,7 +426,9 @@ vendor/etc/hdr_config.cfg
 # Display - hardware
 -product/lib/libsdm-disp-apis.qti.so
 -product/lib64/libsdm-disp-apis.qti.so
+vendor/bin/hw/android.hardware.graphics.composer@2.3-service
 vendor/bin/hw/vendor.qti.hardware.display.allocator@1.0-service
+vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc
 vendor/etc/init/vendor.qti.hardware.display.allocator@1.0-service.rc
 vendor/etc/sdr_config.cfg
 vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so
