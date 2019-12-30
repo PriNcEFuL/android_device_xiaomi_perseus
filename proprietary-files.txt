@@ -163,10 +163,11 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Camera - from MIUI V11.0.4.0
+# Camera
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/camxoverridesettings.txt
+vendor/etc/camera/CFR_para.bin
 vendor/etc/camera/crown_156_128.bin
 vendor/etc/camera/dualcamera.png
 vendor/etc/camera/eyelineblush.cng
@@ -231,6 +232,7 @@ vendor/lib/camera/components/com.qti.node.eisv2.so
 vendor/lib/camera/components/com.qti.node.eisv3.so
 vendor/lib/camera/components/com.qti.node.gpu.so
 vendor/lib/camera/components/com.qti.node.memcpy.so
+vendor/lib/camera/components/com.qti.node.photosolid.so
 vendor/lib/camera/components/com.qti.node.sr.so
 vendor/lib/camera/components/com.qti.node.swregistration.so
 vendor/lib/camera/components/com.qti.node.xiaomigenderage.so
@@ -249,6 +251,9 @@ vendor/lib/camera/components/com.xiaomi.node.misegment.so
 vendor/lib/camera/components/etc/GpuKernelRepo.pb
 vendor/lib/camera/components/etc/model_back.dlc
 vendor/lib/camera/components/etc/model_front.dlc
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
+vendor/lib/camera/components/etc/morpho_lowlight4.0.xml
 vendor/lib/camera/com.qti.sensor.imx363.so
 vendor/lib/camera/com.qti.sensor.imx576.so
 vendor/lib/camera/com.qti.sensormodule.imx576.bin
@@ -266,6 +271,7 @@ vendor/lib/camera/com.qti.tuned.liteon_s5k3m3.bin
 vendor/lib/camera/com.qti.tuned.semco_imx363.bin
 vendor/lib/camera/com.qti.tuned.semco_s5k3m3.bin
 vendor/lib/camera/com.qti.tuned.sunny_imx576.bin
+vendor/lib/camera/com.qti.tuned.sunny_imx576_GLOBAL.bin
 vendor/lib/camera/com.qti.tuned.sunny_ov02a10.bin
 vendor/lib/camera/fdconfigpreview.bin
 vendor/lib/camera/fdconfigpreviewlite.bin
@@ -309,7 +315,7 @@ vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
 vendor/lib/libvidhance.so
 vendor/lib/libXMFD_AgeGender.so
-vendor/lib/mibokeh_845_opencl.bin
+vendor/lib/lib_denoiser3.so
 vendor/lib/libmegface.so
 vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libmisegment_front_845.so
@@ -1282,7 +1288,7 @@ vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
 # Soter
--app/SoterService/SoterService.apk
+-vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
