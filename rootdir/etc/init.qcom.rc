@@ -254,7 +254,7 @@ on boot
     chown system system /sys/class/sensors/apds9930-proximity/poll_delay
 
     # Create camera directory
-    mkdir /mnt/vendor/persist/camera 0755 system cameraserver
+    mkdir /mnt/vendor/persist/camera 0777 root root
 
     # Create directory used for display
     # for backward compatibility
