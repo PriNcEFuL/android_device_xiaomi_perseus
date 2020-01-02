@@ -246,6 +246,7 @@ vendor/lib/camera/components/com.qti.stats.awbwrapper.so
 vendor/lib/camera/components/com.qti.stats.pdlib.so
 vendor/lib/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
+vendor/lib/camera/components/com.vidhance.node.eis.so
 vendor/lib/camera/components/com.xiaomi.node.mifragment.so
 vendor/lib/camera/components/com.xiaomi.node.misegment.so
 vendor/lib/camera/components/etc/GpuKernelRepo.pb
