@@ -50,7 +50,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.remosaic.trigeriso=250 \
     persist.camera.sat.fallback.dist=45 \
     persist.camera.sat.fallback.dist.d=5 \
     persist.camera.sat.fallback.luxindex=310 \
