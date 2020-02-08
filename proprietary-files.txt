@@ -96,7 +96,6 @@ vendor/lib/libcsd-client.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
-vendor/lib/libtinycompress.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
@@ -117,7 +116,6 @@ vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libcsd-client.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
 # Audio FX modules
