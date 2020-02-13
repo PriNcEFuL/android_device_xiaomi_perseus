@@ -195,6 +195,13 @@ vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libmialgoengine.so
 vendor/lib64/libmisegment_front_845.so
 vendor/lib64/libVDClearShot.so
+vendor/lib64/libalCFR.so
+vendor/lib64/libgui_vendor.so
+vendor/lib64/libpvr.so
+vendor/lib64/libreffeature.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsns_registry_skel.so
+vendor/lib64/libdng_sdk.so
 vendor/lib/camera/components/com.arcsoft.node.capturebokeh.so
 vendor/lib/camera/components/com.arcsoft.node.capturefusion.so
 vendor/lib/camera/components/com.arcsoft.node.frontcapturebokeh.so
@@ -306,6 +313,10 @@ vendor/lib/libmegface.so
 vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libmisegment_front_845.so
 vendor/lib/libVDClearShot.so
+vendor/lib/libgui_vendor.so
+vendor/lib/libpvr.so
+vendor/lib/libsnsapi.so
+vendor/lib/libsns_registry_skel.so
 vendor/lib/libdng_sdk.so
 
 # Camera firmware
