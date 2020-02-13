@@ -306,6 +306,7 @@ vendor/lib/libmegface.so
 vendor/lib/libMegviiFacepp-0.5.2.so
 vendor/lib/libmisegment_front_845.so
 vendor/lib/libVDClearShot.so
+vendor/lib/libdng_sdk.so
 
 # Camera firmware
 vendor/firmware/bu64748gwz.prog
