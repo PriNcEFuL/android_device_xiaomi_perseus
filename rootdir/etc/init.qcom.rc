@@ -105,6 +105,9 @@ on early-boot
     chmod 0775 /mnt/vendor/persist/data/pfm/licenses
 
 on boot
+    chmod 0600 /sys/devices/platform/soc/soc\:qcom,dsi-display@24/msm_fb_ea_enable
+    chown system system /sys/devices/platform/soc/soc\:qcom,dsi-display@24/msm_fb_ea_enable
+
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/type
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/state
