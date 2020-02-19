@@ -325,6 +325,7 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.brcm.rc \
     init.msm.usb.configfs.rc \
     init.qcom.power.rc \
     init.qcom.rc \

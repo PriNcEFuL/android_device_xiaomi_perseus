@@ -28,12 +28,6 @@
 #
 import /vendor/etc/init/hw/init.brcm.rc
 
-import init.offline.log.rc
-import init.mishow.ctl.rc
-import /vendor/etc/init/hw/init.4775.rc
-import init.batteryd.rc
-import /vendor/etc/init/hw/init.remosaic.rc
-
 on early-init
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules pinctrl-wcd wcd-dsp-glink snd-soc-wcd-spi snd-soc-sdm845
     write /proc/sys/kernel/sched_boost 1
