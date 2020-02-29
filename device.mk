@@ -361,10 +361,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/nxp/opensource/pn5xx
 
-# Slider settings
-PRODUCT_PACKAGES += \
-    DeviceSettings
-
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
